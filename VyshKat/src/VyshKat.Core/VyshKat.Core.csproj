@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>VyshKat.Core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Нужен только для метода-расширения AddVyshKatCore (IServiceCollection). -->
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0" />
+  </ItemGroup>
+
+</Project>
