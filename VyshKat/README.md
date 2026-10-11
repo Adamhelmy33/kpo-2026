@@ -112,7 +112,6 @@ src/
     UserMessage.cs           cleans exception text for users
 tests/
   VyshKat.Tests/             xUnit, hand-written fake inspection service
-docs/DEFENSE_GUIDE.md        oral-defense study guide
 ```
 
 Two projects under `src` ensure the core physically cannot depend on the console, and the tests
